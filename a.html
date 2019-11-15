@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        function fn(a, b, c) {
+            var sum = arguments[0], cha = arguments[0], ji = arguments[0], shang = arguments[0];
+            for (var i = 1; i < arguments.length; i++) {
+
+                sum += arguments[i];
+                cha -= arguments[i];
+                ji *= arguments[i];
+                shang /= arguments[i]
+            }
+            document.write("和：" + sum + "<br>");
+            document.write("差：" + cha + "<br>");
+            document.write("乘：" + ji + "<br>");
+            document.write("商：" + shang + "<br>");
+            console.log("和：" + sum);
+            console.log("差：" + cha);
+            console.log("乘：" + ji);
+            console.log("商：" + shang);
+
+        }
+        fn(2, 4, 6)
+
+
+
+
+
+    </script>
+</body>
+
+</html>
